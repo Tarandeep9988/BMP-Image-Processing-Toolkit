@@ -1,0 +1,32 @@
+# Compiled files
+*.o
+*.obj
+*.out
+*.exe
+
+# Build artifacts
+filter
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output and images
+images/*.bmp
+!images/.gitkeep
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.log
